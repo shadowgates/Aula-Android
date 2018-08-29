@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorButton</color>
+    <color name="colorPrimaryDark">@color/colorDkgEnd</color>
+    <color name="colorAccent">@color/colorDkgStart</color>
+
+    <color name="colorDkgStart">#56CCF2</color>
+    <color name="colorDkgEnd">#2F80ED</color>
+    <color name="colorLabel">#f5f6fa</color>
+    <color name="colorButton">#273c75</color>
+</resources>

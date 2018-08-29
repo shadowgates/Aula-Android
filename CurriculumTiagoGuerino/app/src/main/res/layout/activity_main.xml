@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            style="@style/Title"
+            android:text="@string/nome" />
+
+        <View style="@style/ViewStyle" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="6dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/eu" />
+
+        <View style="@style/ViewStyle" />
+
+        <TextView
+            style="@style/TextAbout"
+            android:text="@string/sobre" />
+
+        <TextView
+            style="@style/TextAbout"
+            android:text="@string/data" />
+
+        <TextView
+            style="@style/TextAbout"
+            android:text="@string/natural" />
+
+        <TextView
+
+            style="@style/TextAbout"
+            android:text="@string/nacional" />
+
+        <TextView
+            style="@style/TextAbout"
+            android:text="@string/estadoCivil" />
+
+        <View style="@style/ViewStyle" />
+
+        <TextView
+            style="@style/TextAbout"
+            android:text="@string/formacao" />
+
+        <TextView
+            style="@style/TextAbout"
+            android:text="@string/tecnico" />
+
+        <TextView
+            style="@style/TextAbout"
+            android:text="@string/formacaoFaculdade" />
+
+        <View style="@style/ViewStyle" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                style="@style/IconStyle"
+                android:src="@drawable/map_marker" />
+
+            <TextView
+                style="@style/TextInfos"
+                android:autoLink="map"
+                android:text="@string/endereco"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                style="@style/IconStyle"
+                android:src="@drawable/gmail" />
+
+            <TextView
+                style="@style/TextInfos"
+                android:autoLink="email"
+                android:text="@string/email1" />
+
+            <TextView
+                style="@style/TextInfos"
+                android:autoLink="email"
+                android:text="@string/email2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                style="@style/IconStyle"
+                android:src="@drawable/whatsapp" />
+
+            <TextView
+                style="@style/TextInfos"
+                android:autoLink="phone"
+                android:text="@string/whatsapp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                style="@style/IconStyle"
+                android:src="@drawable/facebook_box" />
+
+            <TextView
+                style="@style/TextInfos"
+                android:autoLink="web"
+                android:text="@string/facebook" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                style="@style/IconStyle"
+                android:src="@drawable/github_circle" />
+
+            <TextView
+                style="@style/TextInfos"
+                android:autoLink="web"
+                android:text="@string/github" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

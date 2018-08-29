@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Marcador de Truco</string>
+    <string name="one">+1</string>
+    <string name="three">+3</string>
+    <string name="six">+6</string>
+    <string name="nine">+9</string>
+    <string name="twelve">+12</string>
+
+    <string name="back">voltar</string>
+    <string name="reset">zerar</string>
+    <string name="teamA">Nós</string>
+    <string name="teamB">Eles</string>
+</resources>

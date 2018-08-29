@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Curriculum Tiago Guerino</string>
+    <string name="nome">tiago guerino de oliveira bassani</string>
+    <string name="endereco">rua açucenas 425, cidade jardim i, americana/sp</string>
+    <string name="email1">tiago.gob5@gmail.com</string>
+    <string name="email2">loki.chaos13@gmail.com</string>
+    <string name="whatsapp">+55 19 983538553</string>
+    <string name="facebook">https://facebook.com/tiagoguerino</string>
+    <string name="github">https://github.com/shadowgates</string>
+    <string name="sobre">Sobre Tiago:</string>
+    <string name="data"> Nascimento: 25/01/1992</string>
+    <string name="natural">Naturalidade: Americana/SP</string>
+    <string name="nacional"> Nacionalidade: Brasileiro</string>
+    <string name="estadoCivil">Estado Civil: Solteiro</string>
+    <string name="formacao">Ensino Médio completo - Escola Estadual Monsenhor Magi - 2010</string>
+    <string name="tecnico">Curso de Eletricista de Manutenção - SENAI/Americana - 2009</string>
+
+    <string name="formacaoFaculdade">Cursando 5º semestre do curso de Analise e Desenvolvimento de Sistemas da Fatec Americana.</string>
+</resources>
